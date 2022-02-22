@@ -33,6 +33,9 @@
                     <li>
                         <a href="#">Contact</a>
                     </li>
+                    <li>
+                        <a href="<?php echo SITEURL; ?>cart.php">Cart</a>
+                    </li>
                 </ul>
             </div>
 

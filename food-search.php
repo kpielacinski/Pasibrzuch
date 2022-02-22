@@ -66,6 +66,11 @@
                                 </p>
                                 <br>
                             </div>
+                            <form action="cart.php" method="post">
+                                    <input type="number" name="quantity" value="1" min="1" placeholder="Quantity" required>
+                                    <input type="hidden" name="id" value="<?=$id?>">
+                                    <input class="btn btn-primary" type="submit" value="Add To Cart">
+                                </form>
                         </div>
 
                         <?php

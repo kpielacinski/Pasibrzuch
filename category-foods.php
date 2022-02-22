@@ -78,7 +78,11 @@
                                 </p>
                                 <br>
 
-                                <a href="<?php echo SITEURL; ?>order.php?food_id=<?php echo $id; ?>" class="btn btn-primary">Order Now</a>
+                                <form action="cart.php" method="post">
+                                    <input type="number" name="quantity" value="1" min="1" placeholder="Quantity" required>
+                                    <input type="hidden" name="id" value="<?=$id?>">
+                                    <input class="btn btn-primary" type="submit" value="Add To Cart">
+                                </form>
                             </div>
                         </div>
 

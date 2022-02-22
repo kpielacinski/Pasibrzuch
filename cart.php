@@ -129,7 +129,9 @@ if ($products_in_cart) {
         </div>
         <div class="buttons">
             <input type="submit" value="Update" name="update">
-            <input type="submit" value="Place Order" name="placeorder">
+            <a href="placeorder.php">
+            <input type="button" value="Place Order" name="placeorder">
+            </a>
         </div>
     </form>
 </div>
